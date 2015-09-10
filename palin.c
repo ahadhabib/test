@@ -3,7 +3,7 @@
 int main () {
 
   int k=1, p=1, length = 0;
-  char yolo[20];
+  char yolo[19];
   printf("Please enter a string > ");
   scanf("%[^\n]s", yolo);
   /*scanf("%20s", yolo);*/
@@ -28,6 +28,10 @@ int main () {
   printf("The palindrome is <");
   for(k = 0; k < length*2; k++){printf("%c",(char) yolo2[k]);}
   printf(">\n");
+
+// this is the change i made!
+//ffsdfisdjuisjfoijewofjowjfoewjf
+// fwefwefwfefwfwef
 
 return(0);
 }
